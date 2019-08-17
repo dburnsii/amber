@@ -1,17 +1,17 @@
-name: amberframework
+name: amber
 version: "0.30.0"
 summary: Amber makes building web applications fast, simple, and enjoyable.
 description: Amber CLI tool for building web applications in crystal.
 base: core
 grade: devel
-confinement: strict
+confinement: classic
 
 apps:
-  amberframework:
+  amber:
     command: bin/amber
 
 parts:
-  amberframework:
+  amber:
     plugin: crystal
     source: .
     source-type: local
